@@ -37,6 +37,7 @@ This repository is a docker compose for replicating the local development enviro
 
 ### Browse
 
+* Sample user name : `local`, its password: `local`.
 * Go to manager dashboard (<a href="http://localhost/BusShuttleManagerDashboard" target="_blank">http://localhost/BusShuttleManagerDashboard</a>) and add:
   * A new driver in the Drivers page
   * A new bus in the Buses page
