@@ -34,6 +34,9 @@ This repository is a docker compose for replicating the local development enviro
   * `docker-compose up`
   * This might take some time for the initial build.
   * If Docker prompts to share folder(s), confirm them.
+* If you want to rebuild from scratch, try using --nocache option.
+  * `docker-compose up --no-cache`
+  * This might help if DB or any other initial setup has changed.
 
 ### Browse
 
