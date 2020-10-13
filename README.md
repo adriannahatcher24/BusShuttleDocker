@@ -40,15 +40,14 @@ This repository is a docker compose for replicating the local development enviro
 
 ### Browse
 
-* Sample user name : `local`, its password: `local`.
-* Go to manager dashboard (<a href="http://localhost/BusShuttleManagerDashboard" target="_blank">http://localhost/BusShuttleManagerDashboard</a>) and add:
+* Go to manager dashboard (<a href="http://localhost/BusShuttleManagerDashboard" target="_blank">http://localhost/BusShuttleManagerDashboard</a>), login (Sample user name : `local`, its password: `local`) and add:
   * A new driver in the Drivers page
   * A new bus in the Buses page
   * A new loop in the Loops page
   * A new stop in the Stops page
   * A new inspection item in the Inspection Items page
   * Assign the newly created stop to the newly created loop in Routes page
-* Go to driver app (<a href="http://localhost:4201" target="_blank">http://localhost:4201</a>) and login and select these new driver, bus and loop.
+* Go to driver app (<a href="http://localhost:4201" target="_blank">http://localhost:4201</a>) and login (Sample user name : `shuttle`, its password: `bus`) and select these new driver, bus and loop.
   * Add some mileage information and check the inspection item.
   * Add some boarded and left behind.
   * Click Submit
